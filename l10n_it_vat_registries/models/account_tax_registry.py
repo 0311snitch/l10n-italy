@@ -19,4 +19,4 @@ class AccountTaxRegistry(models.Model):
         ('customer', 'Customer Invoices'),
         ('supplier', 'Supplier Invoices'),
         ('corrispettivi', 'Corrispettivi'),
-        ], 'Layout', required=True)
+    ], 'Layout', required=True)

@@ -31,12 +31,12 @@ class account_invoice(models.Model):
 
     _inherit = 'account.invoice'
     registration_date = fields.Date(
-            'Registration Date',
-            states={
-                'paid': [('readonly', True)],
-                'open': [('readonly', True)],
-                'close': [('readonly', True)]
-            }, index=True, help="Keep empty to use the current date")
+        'Registration Date',
+        states={
+            'paid': [('readonly', True)],
+            'open': [('readonly', True)],
+            'close': [('readonly', True)]
+        }, index=True, help="Keep empty to use the current date")
 
     def action_move_create(self):
 

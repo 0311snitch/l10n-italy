@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
-
         <record id="wizard_registro_iva" model="ir.ui.view">
             <field name="name">VAT Registry</field>
             <field name="model">wizard.registro.iva</field>
@@ -61,6 +60,5 @@
             action="action_registro_iva"
             id="menu_registro_iva"
             icon="STOCK_PRINT"/>
-
     </data>
-</openerp>
+</odoo>
